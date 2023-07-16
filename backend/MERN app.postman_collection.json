@@ -1,0 +1,116 @@
+{
+	"info": {
+		"_postman_id": "6743d93b-5e4a-4a82-8ad5-fcd17ad1d754",
+		"name": "MERN app",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:4000/api/workouts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/api/workouts",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"workouts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/api/workouts/3823",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/api/workouts/3823",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"workouts",
+						"3823"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/api/workouts",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Workout Title\",\r\n    \"load\": 123,\r\n    \"reps\": 456\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4000/api/workouts",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"workouts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/api/workouts/23423",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/api/workouts/23423",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"workouts",
+						"23423"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/api/workouts/57653",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/api/workouts/57653",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"workouts",
+						"57653"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
