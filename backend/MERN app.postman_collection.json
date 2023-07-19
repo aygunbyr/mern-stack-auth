@@ -2,7 +2,8 @@
 	"info": {
 		"_postman_id": "6743d93b-5e4a-4a82-8ad5-fcd17ad1d754",
 		"name": "MERN app",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28578657"
 	},
 	"item": [
 		{
@@ -107,6 +108,64 @@
 						"api",
 						"workouts",
 						"57653"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/api/user/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"turkoaygun@gmail.com\",\r\n    \"password\": \"ABCabc123!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4000/api/user/login",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"user",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/api/user/signup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"turkoaygun@gmail.com\",\r\n    \"password\": \"ABCabc123!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4000/api/user/signup",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"user",
+						"signup"
 					]
 				}
 			},
